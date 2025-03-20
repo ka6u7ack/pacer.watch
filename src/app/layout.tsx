@@ -1,6 +1,4 @@
 import { Lato } from 'next/font/google'
-import Favicon from '/public/favicon.ico';
-
 import { Providers } from './providers'
 import './globals.css'
 
@@ -9,7 +7,9 @@ const lato = Lato({ weight: ['400', '700'], subsets: ['latin'] })
 export const metadata = {
   title: 'Just Run',
   description: 'Running Pace Calculator',
-  icons: [{ rel: 'icon', url: Favicon.src }],
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({
@@ -19,6 +19,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="light">
+      <Head>
+        <link rel='icon' href='/favicon.svg' />
+        <meta name='apple-mobile-web-app-status-bar-style' content='#ff7652' />
+      </Head>
       <body className={lato.className}>
         <Providers>{children}</Providers>
       </body>
