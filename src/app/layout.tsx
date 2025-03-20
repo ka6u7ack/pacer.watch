@@ -9,7 +9,7 @@ export const metadata = {
   title: 'Just Run',
   description: 'Running Pace Calculator',
   icons: {
-    icon: 'https://evant.me/favicon.svg', // 全局图标
+    icon: '/favicon.ico', // 全局图标
   },
 }
 
