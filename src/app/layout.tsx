@@ -8,7 +8,7 @@ export const metadata = {
   title: 'Just Run',
   description: 'Running Pace Calculator',
   icons: {
-    icon: '/favicon.ico',
+    icon: '/icon.ico',
   },
 }
 
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="light">
       <Head>
-        <link rel='icon' href='/favicon.svg' />
+        <link rel='icon' href='/icon.ico' />
         <meta name='apple-mobile-web-app-status-bar-style' content='#ff7652' />
       </Head>
       <body className={lato.className}>
