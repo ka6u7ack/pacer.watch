@@ -8,7 +8,12 @@ export const metadata = {
   title: 'Just Run',
   description: 'Running Pace Calculator',
   icons: {
-    icon: '/icon.ico',
+    icon: [
+      {
+        url: "/icon.ico",
+        href: "/icon.ico",
+      },
+    ],
   },
 }
 
