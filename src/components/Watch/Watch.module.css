@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: calc(390px - 12px - 12px);
+  padding: 16px;
+  width: 100%;
+}
+
+.navbar {
+  align-self: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.navbarHeader {
+  height: 36px;
+  position: relative;
+}
+
+.navbarHeaderHint {
+  color: #ddd;
+  position: absolute;
+  right: 100%;
+  font-size: 24px;
+}
+
+.numberArea {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: auto;
+}
+
+.numberItem {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 24px;
+}
+
+.numberSelect {
+  width: 120px;
+}
+
+.buttonArea {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  gap: 12px;
+  width: 100%;
+}
+
+.buttonContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonText {
+  color: #333;
+  margin-top: 12px;
+}
+
+.lockButton {
+  margin-top: 12px;
+}
+
+.optionListContainer {
+  height: calc(36px * 2.5);
+  margin-top: 12px;
+  overflow: auto;
+  width: 100%;
+}
+
+.optionList {
+  display: flex;
+  flex-direction: column;
+}
+
+.optionItem {
+  align-items: center;
+  display: flex;
+  height: 36px;
+  justify-content: center;
+}
+
+.toolButtonList {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 24px;
+  width: 100%;
+}

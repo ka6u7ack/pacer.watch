@@ -1,0 +1,20 @@
+.container {
+}
+
+.button {
+  cursor: grab;
+  border-radius: 50%;
+  height: 90px;
+  /* https://github.com/jquery-archive/PEP/issues/346#issuecomment-402151419 */
+  touch-action: none;
+  position: relative;
+  width: 90px;
+}
+
+.buttonDot {
+  position: absolute;
+  top: 8%;
+  left: 42%;
+  height: 8%;
+  width: 8%;
+}

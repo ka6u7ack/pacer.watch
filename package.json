@@ -1,0 +1,42 @@
+{
+  "name": "pacer-watch",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@material-design-icons/svg": "^0.14.13",
+    "@nextui-org/react": "^2.1.13",
+    "@svgr/webpack": "^8.1.0",
+    "@types/node": "20.3.1",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "@vercel/analytics": "^1.1.1",
+    "@vercel/kv": "^1.0.1",
+    "classnames": "^2.3.2",
+    "date-fns": "^3.0.6",
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.7",
+    "eslint-config-prettier": "^8.8.0",
+    "framer-motion": "^10.16.4",
+    "html-to-image": "^1.11.11",
+    "mathjs": "^12.2.1",
+    "next": "13.4.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "^5.7.2"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3"
+  }
+}
